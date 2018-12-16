@@ -7,6 +7,29 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
 
+# Server Requirements
+The Laravel framework has a few system requirements. Of course, all of these requirements are satisfied by the Laravel Homestead virtual machine, so it's highly recommended that you use Homestead as your local Laravel development environment.
+
+However, if you are not using Homestead, you will need to make sure your server meets the following requirements:
+
+PHP >= 7.1.3
+OpenSSL PHP Extension
+PDO PHP Extension
+Mbstring PHP Extension
+Tokenizer PHP Extension
+XML PHP Extension
+Ctype PHP Extension
+JSON PHP Extension
+BCMath PHP Extension
+
+# Installing Laravel Materialize theme
+
+git clone https://github.com/vishnusharmax/Laravel-5.7-materialize-theme.git
+
+And just run : composer update
+
+Demo URL : - [Demo URL](http://connectyou.tryfcomet.com/).
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as:
